@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+  <title id="title">小红书萌娘风格知识图解生成器</title>
+  <desc id="desc">LLM 与 Transformer 萌娘展示一套从复杂知识到小红书图解的创作流程。</desc>
+
+  <defs>
+    <linearGradient id="title-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4c4fa3"/>
+      <stop offset="0.48" stop-color="#7b5bc4"/>
+      <stop offset="1" stop-color="#e97b52"/>
+    </linearGradient>
+    <linearGradient id="panel-stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a72cf"/>
+      <stop offset="0.5" stop-color="#d6a3de"/>
+      <stop offset="1" stop-color="#e58a5f"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#34458f" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <image x="0" y="0" width="1600" height="640" preserveAspectRatio="xMidYMid slice" xlink:href="hero-art.png"/>
+
+  <rect x="447" y="155" width="706" height="330" rx="42" fill="#fffaf2" fill-opacity="0.91" stroke="url(#panel-stroke)" stroke-width="4" filter="url(#soft-shadow)"/>
+  <rect x="465" y="173" width="670" height="294" rx="31" fill="none" stroke="#ffffff" stroke-opacity="0.88" stroke-width="2"/>
+
+  <g text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+    <text x="800" y="270" font-size="65" font-weight="800" letter-spacing="2" fill="url(#title-gradient)" stroke="#ffffff" stroke-width="8" paint-order="stroke">小红书萌娘风格</text>
+    <text x="800" y="350" font-size="65" font-weight="800" letter-spacing="3" fill="url(#title-gradient)" stroke="#ffffff" stroke-width="8" paint-order="stroke">知识图解生成器</text>
+    <line x1="608" y1="386" x2="992" y2="386" stroke="#dab75d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="590" cy="386" r="5" fill="#dab75d"/>
+    <circle cx="1010" cy="386" r="5" fill="#dab75d"/>
+    <text x="800" y="432" font-size="27" font-weight="600" letter-spacing="1.5" fill="#34416d">把复杂知识，变成好看又好懂的小红书图解</text>
+  </g>
+</svg>

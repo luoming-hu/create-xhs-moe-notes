@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书萌娘知识图解"
+  short_description: "将AI概念或知识片段变成可确认、可生图的萌娘风小红书图文笔记"
+  default_prompt: "使用 $create-xhs-moe-notes 把一个AI概念制作成小红书萌娘知识图解，先给我完整确认稿，不要立即生图。"
